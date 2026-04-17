@@ -83,6 +83,9 @@ int main(void) {
 
     printf("Llamadas a sumar(): %d\n", llamadas);
 
+    double p = potencia(2.0, 3);
+printf("2 elevado a la 3 es: %f\n", p);
+
     return EXIT_SUCCESS;
 }
 
